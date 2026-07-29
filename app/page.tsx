@@ -70,7 +70,7 @@ const PortfolioCover: React.FC = () => {
       `}</style>
 
       <svg
-        viewBox="0 0 700 521"
+        viewBox="0 40 700 481"
         className="w-full h-full"
         style={{ maxWidth: "1000px" }}
         xmlns="http://www.w3.org/2000/svg"
