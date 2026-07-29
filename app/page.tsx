@@ -19,7 +19,7 @@ const PortfolioCover: React.FC = () => {
   const [sparkleHover, setSparkleHover] = useState(false);
 
   return (
-    <div className="w-full h-full bg-black flex items-center justify-center">
+    <div className="w-full bg-black flex items-start justify-center">
       <style>{`
         @keyframes fadeUp {
           from { opacity: 0; transform: translateY(14px); }
