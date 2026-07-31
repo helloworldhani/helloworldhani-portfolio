@@ -117,17 +117,17 @@ interface Skill {
 }
 
 const doSkillsRow1: Skill[] = [
-  { label: "Illustration" },
-  { label: "Presentation" },
-  { label: "Typography" },
-  { label: "Branding" },
+  { label: "Web Development" },
+  { label: "Mobile Development" },
+  { label: "Project Manager" },
+  { label: "Machine Learning" },
 ];
 
 const doSkillsRow2: Skill[] = [
-  { label: "Art Direction" },
-  { label: "Layout" },
-  { label: "Logo Design" },
-  { label: "UI Design" },
+  { label: "UI/UX Design" },
+  { label: "Brand Identity" },
+  { label: "Graphic Design" },
+  { label: "Full-Stack Development" },
 ];
 
 interface Job {
@@ -263,9 +263,7 @@ function WhatIDoSlide() {
       </h1>
 
       <p className="text-sm md:text-base text-neutral-600 max-w-lg mb-16 leading-relaxed">
-        I build identities that move—sometimes polished, sometimes raw, but
-        always usable. I love bold type, soft details, layered textures, and
-        stories that don&apos;t fit neatly in boxes.
+        I build digital products from idea to launch, combining software development, design, and machine learning. I enjoy creating experiences that are intuitive, visually thoughtful, and built to solve real problems.
       </p>
 
       <div className="flex-1" />
