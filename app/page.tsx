@@ -26,9 +26,9 @@ function SlideFooter({ email = true }: { email?: boolean }) {
   if (!email) return null;
   return (
     <div className="flex items-center justify-between text-xs text-neutral-500 mt-auto pt-10">
-      <span>gdramyayman@gmail.com</span>
-      <span>+0111 37 666 487</span>
-      <span>Cairo, Egypt</span>
+      <span>helloworldhani@gmail.com</span>
+      <span>+0111 11 111 111</span>
+      <span>Somewhere, Philippines</span>
     </div>
   );
 }
@@ -188,7 +188,7 @@ function CoverSlide() {
       <h1 className="text-2xl font-bold text-neutral-900">
         Creative Presentation
       </h1>
-      <p className="text-sm text-neutral-500 mt-1">Presented By: Ramy Ayman</p>
+      <p className="text-sm text-neutral-500 mt-1">Presented By: Hani</p>
 
       <div className="flex-1" />
 
@@ -201,9 +201,9 @@ function CoverSlide() {
           <span>illustrator</span>
         </div>
         <div className="flex items-center gap-6 text-neutral-500">
-          <span>gdramyayman@gmail.com</span>
-          <span>+0111 37 66 487</span>
-          <span>Cairo, Egypt</span>
+          <span>helloworldhani@gmail.com</span>
+          <span>+0111 11 11 111</span>
+          <span>Somewhere, Philippines</span>
         </div>
       </div>
 
@@ -234,7 +234,7 @@ function IntroSlide() {
           <h1 className="font-black leading-[0.95] tracking-tight text-neutral-900 text-5xl md:text-6xl lg:text-7xl mb-8">
             Hello!
             <br />
-            I&apos;m Ramy Ayman
+            I&apos;m Hani
           </h1>
 
           <p className="text-sm md:text-base text-neutral-800 font-medium mb-4 max-w-md">
