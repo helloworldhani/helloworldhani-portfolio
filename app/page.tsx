@@ -430,4 +430,4 @@ export default function Portfolio() {
       <ProgressDots />
     </div>
   );
-}
+} 
