@@ -238,15 +238,10 @@ function IntroSlide() {
           </h1>
 
           <p className="text-sm md:text-base text-neutral-800 font-medium mb-4 max-w-md">
-            A multidisciplinary designer exploring the intersection of
-            culture, emotion, and aesthetics.
+            A multidisciplinary product builder passionate about creating digital experiences that are both functional and enjoyable to use.
           </p>
           <p className="text-sm md:text-base text-neutral-500 max-w-md leading-relaxed">
-            I explore the intersection of culture, emotion, and aesthetics to
-            create visual systems that resonate. To me, design is more than
-            just aesthetics; it&apos;s a tool to tell stories, navigate
-            identities, and find the perfect balance between enduring values
-            and constant change
+            My work spans web development, mobile development, UI/UX design, brand identity, graphic design, and applied machine learning. I enjoy being involved throughout the entire product journey from understanding a problem and designing the experience to developing, testing, and launching the final product.
           </p>
         </div>
       </div>
