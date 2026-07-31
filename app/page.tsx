@@ -202,7 +202,7 @@ function CoverSlide() {
         </div>
         <div className="flex items-center gap-6 text-neutral-500">
           <span>helloworldhani@gmail.com</span>
-          <span>+0111 11 11 111</span>
+          <span>+0111 11 11 111n</span>
           <span>Somewhere, Philippines</span>
         </div>
       </div>
@@ -214,7 +214,7 @@ function CoverSlide() {
           lineHeight: 0.82,
         }}
       >
-        Portfolio
+        Portfolio 
       </h2>
     </Slide>
   );
