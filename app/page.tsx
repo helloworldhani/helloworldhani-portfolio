@@ -137,7 +137,7 @@ interface Job {
 }
 
 const jobs: Job[] = [
-  { years: "2024 / 2026", title: "Art Director", company: "Roboost" },
+  { years: "2024 / 2026", title: "Web Developer", company: "Roboost" },
   {
     years: "2020 / 2023",
     title: "Brand Designer & Illustrator",
@@ -175,6 +175,10 @@ const insideItems: Inside[] = [
   { n: 4, label: "illustration&Poster" },
 ];
 
+// ---------- Roles rendered as unstyled buttons on the cover slide ----------
+
+const roles: string[] = ["Web Developer", "Brand Identity", "Graphic Design"];
+
 // ---------- Individual slides ----------
 
 function CoverSlide() {
@@ -194,15 +198,23 @@ function CoverSlide() {
 
       <div className="flex flex-wrap items-center justify-between gap-y-2 text-sm text-neutral-700 mb-6">
         <div className="flex items-center gap-3">
-          <span>Art Director</span>
-          <span className="text-neutral-300">/</span>
-          <span>Brand Designer</span>
-          <span className="text-neutral-300">/</span>
-          <span>illustrator</span>
+          {roles.map((role, i) => (
+            <React.Fragment key={role}>
+              <button
+                type="button"
+                className="bg-transparent border-0 p-0 m-0 font-sans text-sm text-neutral-700 cursor-pointer"
+              >
+                {role}
+              </button>
+              {i < roles.length - 1 && (
+                <span className="text-neutral-300">/</span>
+              )}
+            </React.Fragment>
+          ))}
         </div>
         <div className="flex items-center gap-6 text-neutral-500">
           <span>helloworldhani@gmail.com</span>
-          <span>+0111 11 11 111n</span>
+          <span>+0111 11 11 1111</span>
           <span>Somewhere, Philippines</span>
         </div>
       </div>
@@ -214,7 +226,7 @@ function CoverSlide() {
           lineHeight: 0.82,
         }}
       >
-        Portfolio 
+        Portfolio
       </h2>
     </Slide>
   );
@@ -238,10 +250,16 @@ function IntroSlide() {
           </h1>
 
           <p className="text-sm md:text-base text-neutral-800 font-medium mb-4 max-w-md">
-            A multidisciplinary product builder passionate about creating digital experiences that are both functional and enjoyable to use.
+            A multidisciplinary product builder passionate about creating
+            digital experiences that are both functional and enjoyable to
+            use.
           </p>
           <p className="text-sm md:text-base text-neutral-500 max-w-md leading-relaxed">
-            My work spans web development, mobile development, UI/UX design, brand identity, graphic design, and applied machine learning. I enjoy being involved throughout the entire product journey from understanding a problem and designing the experience to developing, testing, and launching the final product.
+            My work spans web development, mobile development, UI/UX design,
+            brand identity, graphic design, and applied machine learning. I
+            enjoy being involved throughout the entire product journey from
+            understanding a problem and designing the experience to
+            developing, testing, and launching the final product.
           </p>
         </div>
       </div>
@@ -263,7 +281,10 @@ function WhatIDoSlide() {
       </h1>
 
       <p className="text-sm md:text-base text-neutral-600 max-w-lg mb-16 leading-relaxed">
-        I build digital products from idea to launch, combining software development, design, and machine learning. I enjoy creating experiences that are intuitive, visually thoughtful, and built to solve real problems.
+        I build digital products from idea to launch, combining software
+        development, design, and machine learning. I enjoy creating
+        experiences that are intuitive, visually thoughtful, and built to
+        solve real problems.
       </p>
 
       <div className="flex-1" />
@@ -423,4 +444,4 @@ export default function Portfolio() {
       <ProgressDots />
     </div>
   );
-} 
+}
