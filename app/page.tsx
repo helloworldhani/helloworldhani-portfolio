@@ -306,14 +306,6 @@ function WhatIDoSlide() {
     </Slide>
   );
 }
-          </div>
-        ))}
-      </div>
-
-      <div className="border-t border-neutral-200" />
-    </Slide>
-  );
-}
 
 function ToolsSlide() {
   return (
