@@ -190,7 +190,7 @@ function CoverSlide() {
       </h1>
       <p className="text-xs sm:text-sm text-neutral-500 mt-1">Presented By: Hani</p>
 
-      <div className="flex-1" />
+      <div className="py-64" />
 
       <div className="flex flex-col gap-4 mb-6">
         <div className="flex flex-wrap items-center gap-2 text-xs sm:text-sm text-neutral-700">
