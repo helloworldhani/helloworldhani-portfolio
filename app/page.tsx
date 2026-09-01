@@ -184,10 +184,6 @@ const roles: string[] = ["Web Developer", "Brand Identity", "Graphic Design"];
 function CoverSlide() {
   return (
     <Slide>
-      <div className="mb-10 sm:mb-16">
-        <EyeMark />
-      </div>
-
       <div className="mb-1 text-xs sm:text-sm text-neutral-500">{DATE}</div>
       <h1 className="text-lg sm:text-2xl font-bold text-neutral-900">
         Creative Presentation
